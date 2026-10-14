@@ -156,12 +156,12 @@ accept images.
 The bundled rows provide known chat metadata and an offline fallback. Retired
 models are not included; existing configurations are not rewritten automatically.
 
-| Model ref                                      | Name                       | Context   | Max output |
-| ---------------------------------------------- | -------------------------- | --------- | ---------- |
-| `nvidia/nvidia/nemotron-3-ultra-550b-a55b`     | Nemotron 3 Ultra 550B      | 1,048,576 | 8,192      |
-| `nvidia/nvidia/nemotron-3.5-lightning-30b-a3b` | Nemotron 3.5 Lightning 30B | 1,048,576 | 16,384     |
-| `nvidia/nvidia/nemotron-3.5-super-vl-120b-a12b` | Nemotron 3.5 Super VL     | 1,048,576 | 8,192      |
-| `nvidia/moonshotai/kimi-k2.6`                  | Kimi K2.6                  | 262,144   | 65,536     |
+| Model ref                                       | Name                       | Context   | Max output |
+| ----------------------------------------------- | -------------------------- | --------- | ---------- |
+| `nvidia/nvidia/nemotron-3-ultra-550b-a55b`      | Nemotron 3 Ultra 550B      | 1,048,576 | 8,192      |
+| `nvidia/nvidia/nemotron-3.5-lightning-30b-a3b`  | Nemotron 3.5 Lightning 30B | 1,048,576 | 16,384     |
+| `nvidia/nvidia/nemotron-3.5-super-vl-120b-a12b` | Nemotron 3.5 Super VL      | 1,048,576 | 8,192      |
+| `nvidia/moonshotai/kimi-k2.6`                   | Kimi K2.6                  | 262,144   | 65,536     |
 
 If a configured model has been retired, select an active model from
 `openclaw models list --provider nvidia`.
