@@ -114,7 +114,7 @@ describe("nvidia provider catalog", () => {
       "nvidia/nemotron-3-ultra-550b-a55b",
       "nvidia/nemotron-3.5-lightning-30b-a3b",
     ]);
-    expect(provider.models[0]?.input).toEqual(["text", "image"]);
+    expect(provider.models[0]?.input).toEqual(["text", "image", "video"]);
     expect(ssrfRuntimeMocks.fetchWithSsrFGuard).toHaveBeenCalledWith({
       auditContext: "nvidia-featured-model-catalog",
       init: { headers: expect.any(Headers) },
@@ -160,7 +160,7 @@ describe("nvidia provider catalog", () => {
     });
     expect(provider.models[2]).toMatchObject({
       id: "nvidia/nemotron-3.5-super-vl-120b-a12b",
-      input: ["text", "image"],
+      input: ["text", "image", "video"],
       contextWindow: 1_048_576,
     });
     expect(provider.models.find((model) => model.id === "moonshotai/kimi-k2.6")).toMatchObject({

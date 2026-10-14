@@ -120,15 +120,15 @@ exposing reasoning text.
 
 Use Ultra for the highest-capability NVIDIA default. Select Nemotron 3.5
 Lightning for a smaller text-only Nemotron option, Nemotron 3.5 Super VL for
-image understanding, or choose one of the third-party models
+image and video understanding, or choose one of the third-party models
 hosted in NVIDIA's catalog when their context, latency, or behavior fits better.
 
 ## Nemotron 3.5 Super VL
 
 [Nemotron 3.5 Super VL](https://docs.nvidia.com/nemo/automodel/model-coverage/omni/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-BF16)
-is NVIDIA's vision-language model for text and image input.
+is NVIDIA's vision-language model for text, image, and video input.
 
-Select it for text and image input with:
+Select it for text, image, and video input with:
 
 ```bash
 openclaw models set nvidia/nvidia/nemotron-3.5-super-vl-120b-a12b
